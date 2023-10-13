@@ -20,10 +20,10 @@ APP_ID = int(os.environ.get("APP_ID", "2578996"))
 API_HASH = os.environ.get("API_HASH", "1f5343b06466759fc248f")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001885067474"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001780719412"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Sensei_Rimuru")
+OWNER = os.environ.get("OWNER", "Lolahaitu")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -47,10 +47,10 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}\n\nʙᴀᴋᴋᴀᴀᴀ!! ɪ'ᴍ ʜᴇʀᴇ ᴀᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ᴀɴɪᴍᴇ !! ᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣.</b>",
+    "<b>Hello {first}\n\n 💢sʜɪᴛᴛᴛ!! ɪ'ᴍ ʜᴇʀᴇ ᴀᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ᴀɴɪᴍᴇ !! ᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "2036803347 6030197186").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1390875822 5740491691").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -66,9 +66,9 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "False"))
 
-# Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
-# Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((844432220, 6198858059, 778393824, 6299128233))
+# Don't delete it or it will be an ERROR, DELETE the ID below = ACCEPT THE CONSEQUENCES
+# Spoiler CONSEQUENCES Most CH suddenly disappeared & the owner I lost 🤪
+ADMINS.extend((1390875822, 5740491691, 2070894521, 6036618745))
 
 
 LOG_FILE_NAME = "logs.txt"
