@@ -60,7 +60,7 @@ async def varget_(client: Bot, message: Message):
     if await is_heroku():
         if HAPP is None:
             return await message.reply_text(
-                "Pastikan HEROKU_API_KEY dan HEROKU_APP_NAME anda dikonfigurasi dengan benar di config vars heroku"
+                "Make sure your HEROKU_API_KEY and HEROKU_APP_NAME are configured correctly in heroku config vars"
             )
         heroku_config = HAPP.config()
         if check_var in heroku_config:
