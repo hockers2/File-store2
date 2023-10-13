@@ -45,7 +45,7 @@ async def batch(client: Client, message: Message):
         if s_msg_id:
             break
         await second_message.reply(
-            "❌ <b>sʜɪᴛᴛ ! ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ғᴏʀ @ʜɢ_ᴀɴɪᴍᴇ</b>",
+            "❌ <b>sʜɪᴛᴛ ! ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ғᴏʀ @ʜɢ_ᴀɴɪᴍᴇ ᴜsᴇʀs</b>",
             quote=True,
         )
         continue
@@ -85,7 +85,7 @@ async def link_generator(client: Client, message: Message):
         if msg_id:
             break
         await channel_message.reply(
-            "❌ <b>sʜɪᴛᴛ ! ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ғᴏʀ @ʜɢ_ᴀɴɪᴍᴇ</b>",
+            "❌ <b>sʜɪᴛᴛ ! ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ғᴏʀ @ʜɢ_ᴀɴɪᴍᴇ ᴜsᴇʀs</b>",
             quote=True,
         )
         continue
