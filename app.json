@@ -10,43 +10,43 @@
   "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
+      "description": "Input Bot token, Get from t.me/BotFather",
       "value": ""
     },
     "OWNER": {
-      "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
+      "description": "Enter the Telegram Username for the BOT Owner [ Don't Use @ ]",
       "value": "mrismanaziz"
     },
     "ADMINS": {
-      "description": "Masukan User ID untuk mendapatkan hak Admin di BOT [ Gunakan Spasi Untuk Pemisah User ID ]",
+      "description": "Enter User ID to get Admin rights in BOT [Use Spaces to Separate User ID ]",
       "value": "0"
     },
     "APP_ID": {
-      "description": "Dapatkan APP ID di web my.telegram.org",
+      "description": "my.telegram.org",
       "value": "6"
     },
     "API_HASH": {
-      "description": "Dapatkan API HASH di web my.telegram.org",
+      "description": "Get the HASH API on the web my.telegram.org",
       "value": "eb06d4abfb49dc3eeb1aeb98ae0f581e"
     },
     "CHANNEL_ID": {
-      "description": "Masukan ID Channel Untuk [Channel Database]",
+      "description": "Enter Channel ID for [Channel Database]",
       "value": "-100"
     },
     "PROTECT_CONTENT": {
-      "description": "Untuk Mencegah pengguna bot untuk mendownload/memforward/mengscreenshot konten yang dikirim di bot [ Bila ingin diaktifkan ubah ke True ]",
+      "description": "To prevent bot users from downloading/forwarding/screenshotting content sent to the bot [If you want to activate it, change it to True ]",
       "value": "False"
     },
     "FORCE_SUB_CHANNEL": {
-      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "description": "Enter the ID of the channel or group for mandatory subscription. If you don't want to use the Fsub, fill in 0",
       "value": "0"
     },
     "FORCE_SUB_GROUP": {
-      "description": "Masukan ID dari Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "description": "Enter the ID of the group for mandatory subscription. If you don't want to use the Fsub, fill in 0",
       "value": "0"
     },
     "START_MESSAGE": {
-      "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
+      "description": "The /start message initiates a prefix to the bot, Use parsemode format HTML",
       "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
     },
     "FORCE_SUB_MESSAGE": {
