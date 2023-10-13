@@ -34,14 +34,14 @@ class Data:
 
     mbuttons = [
         [
-            InlineKeyboardButton("⚠️ ʜᴇʟᴘ", callback_data="help"),
+            InlineKeyboardButton("📞 ʜᴇʟᴘ", callback_data="help"),
             InlineKeyboardButton("❌ᴄᴀɴᴄᴇʟ", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("😇ᴀʙᴏᴜᴛ", callback_data="about"),
+            InlineKeyboardButton("🏮ᴀʙᴏᴜᴛ🏮", callback_data="about"),
             InlineKeyboardButton("❌ᴄʟᴏsᴇ", callback_data="close")
         ],
     ]
@@ -51,9 +51,9 @@ class Data:
 
  ᴛʜɪs is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
-  • Sensei: @Sensei_Rimuru
+  • Owner : @HG_Assistant
   • Framework: Pyrograms
-  • Channel :@Anime_Sensei_Network
+  • Channel :@HG_Anime
 
  ♥︎ Developed by Owner
 """
